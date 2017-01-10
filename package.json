@@ -1,0 +1,22 @@
+{
+  "name": "unicode-emoji-data",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "node --max_old_space_size=4096 scripts/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkt/unicode-emoji-data.git"
+  },
+  "author": "Nikita Gusakov <gusnkt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/unicode-emoji-data/issues"
+  },
+  "homepage": "https://github.com/nkt/unicode-emoji-data#readme",
+  "devDependencies": {
+    "jsdom": "^9.9.1",
+    "mkdirp": "^0.5.1"
+  }
+}
