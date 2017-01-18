@@ -1,0 +1,14 @@
+{
+  "name": "unicode-emoji-data-windows",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkt/unicode-emoji-data.git"
+  },
+  "author": "Nikita Gusakov <gusnkt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/unicode-emoji-data/issues"
+  },
+  "homepage": "https://github.com/nkt/unicode-emoji-data#readme"
+}
