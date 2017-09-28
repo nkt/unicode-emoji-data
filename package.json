@@ -1,7 +1,7 @@
 {
   "name": "unicode-emoji-data",
   "private": true,
-  "version": "0.1.0",
+  "version": "6.0.0-beta",
   "scripts": {
     "build": "node --max_old_space_size=4096 scripts/build.js"
   },
