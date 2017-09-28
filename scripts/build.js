@@ -55,19 +55,16 @@ jsdom.env({
         id: parseInt(id, 10),
         code: row.cells[1].childNodes[0].innerHTML,
         char: row.cells[2].innerHTML,
-        name: row.cells[16].innerHTML,
-        age: row.cells[17].innerHTML,
-        keywords: parseKeywords(row.cells[18].childNodes),
+        name: row.cells[15].innerHTML,
         images: {
-          chart: parseImage(row, 3),
-          apple: parseImage(row, 4),
-          google: parseImage(row, 5),
-          twitter: parseImage(row, 6),
-          emojione: parseImage(row, 7),
-          facebook: parseImage(row, 8),
-          'facebook-messenger': parseImage(row, 9),
-          samsung: parseImage(row, 10),
-          windows: parseImage(row, 11),
+          apple: parseImage(row, 3),
+          google: parseImage(row, 4),
+          twitter: parseImage(row, 5),
+          emojione: parseImage(row, 6),
+          facebook: parseImage(row, 7),
+          'facebook-messenger': parseImage(row, 8),
+          samsung: parseImage(row, 9),
+          windows: parseImage(row, 10),
         }
       });
     }
